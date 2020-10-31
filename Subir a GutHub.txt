@@ -2,7 +2,7 @@
 $ git init
 
 # Especificar el repositorio
-$ git remote add origin https://github.com/amkristhian1995/LeerArchivoExcel.git
+$ git remote add origin https://github.com/amkristhian1995/Bootstrap-DateTimePicker.git
 
 $ git checkout -b gh-pages
 
