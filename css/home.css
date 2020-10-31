@@ -1,0 +1,58 @@
+@import url('libraries/bootstrap.min.css');
+@import url('libraries/bootstrap-datetimepicker.min.css');
+@import url('libraries/font-awesome.min.css');
+/* font-face */
+@font-face {
+	font-family: 'Lato Bold';
+	font-display: auto;
+	src: url('../fonts/Lato-Bold.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'Lato Medium';
+	font-display: auto;
+	src: url('../fonts/Lato-Medium.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'Lato Regular';
+	font-display: auto;
+	src: url('../fonts/Lato-Regular.ttf')  format('truetype');
+}
+/* datetimepicker */
+.datetimepicker.dropdown-menu {
+	border:1px solid #163e72!important;
+}
+.datetimepicker.dropdown-menu::before {
+	border-bottom-color:#163e72!important;
+}
+.datetimepicker-minutes > table > thead > tr > th,
+.datetimepicker-hours > table > thead > tr > th,
+.datetimepicker-days > table > thead > tr > th,
+.datetimepicker-months > table > thead > tr > th,
+.datetimepicker-years > table > thead > tr > th {
+	background-color:#163e72!important;
+	border-radius:0!important;
+	color:#FFF!important;
+	font-family:"Lato Bold";
+	font-size:.8rem;
+}
+
+.datetimepicker-minutes > table > tbody > tr > td,
+.datetimepicker-hours > table > tbody > tr > td,
+.datetimepicker-days > table > tbody > tr > td,
+.datetimepicker-months > table > tbody > tr > td,
+.datetimepicker-years > table > tbody > tr > td {
+	font-family:"Lato Medium";
+	font-size:.8rem;
+}
+
+.datetimepicker table tr td.active:active,
+.datetimepicker table tr td.active:hover:active,
+.datetimepicker table tr td.active.disabled:active,
+.datetimepicker table tr td.active.disabled:hover:active,
+.datetimepicker table tr td.active.active,
+.datetimepicker table tr td.active:hover.active,
+.datetimepicker table tr td.active.disabled.active,
+.datetimepicker table tr td.active.disabled:hover.active {
+	background-image:linear-gradient(to bottom,#163e72,#163e72)!important;
+	color:#FFF!important;
+}
